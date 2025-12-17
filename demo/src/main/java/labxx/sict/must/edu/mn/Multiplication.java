@@ -12,11 +12,6 @@ public class Multiplication {
      * @return Product of a and b
      */
     public double multiply(double a, double b) {
-        try{
-            return a * b;
-        }
-        catch(e){
-            throw new Error("Unknown Error");
-        }
+        return a * b;
     }
 }

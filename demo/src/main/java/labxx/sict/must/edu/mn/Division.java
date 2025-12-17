@@ -13,13 +13,9 @@ public class Division {
      * @throws IllegalArgumentException if b is zero
      */
     public double divide(double a, double b) {
-        try{
             if (b == 0) {
                 throw new IllegalArgumentException("Cannot divide by zero");
             }
             return a / b;
-        catch(){
-            throw new Error("Unknown Error")
-        }
     }
 }
